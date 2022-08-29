@@ -69,4 +69,53 @@ nome3 = "Michel"*/
 * Pode ser utilizada também com expressões
 * */
 
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=_gkRtxjhbNo&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=8
+//Curso de Kotlin | Básico #07 - Classes
+
+/*Um pouco de orientação a objetos
+*
+* Também conhecido como POO, é um paradigma (classificação) de programação baseado no conceito de "objetos"
+* Objetos podem conter dados (atributos) e procedimentos (métodos) e são elementos fundamentais na construção da solução
+* Objetos são instâncias de classes
+* Um objeto é uma abstração de algum fato ou ente do mundo real
+* */
+
+/*Classe
+*
+* É uma descrição que abstrai um conjunto de objetos com características similares
+* Descreve as propriedades/estados (atributos) possíveis e as ações/comportamentos (métodos) de um conjunto de objetos
+* */
+
+//Classe Java x Classe Kotlin
+/*Classe Java
+public class classes.Pessoa{
+
+    private final String nome;
+    private final int idade;
+
+    public classes.Pessoa(String nome, int idade){
+        this.nome = nome;
+        this.idade = idade;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public int getIdade(){
+        return idade;
+    }
+}
+*/
+
+/*Classe Kotlin
+class Pessoa (
+    val nome: String,
+    val idade: Int
+    )
+
+* objetos valor (value objects) - contém apenas dados (sem códigos)
+* Public é a visibilidade default em Kotlin
+*/
 
