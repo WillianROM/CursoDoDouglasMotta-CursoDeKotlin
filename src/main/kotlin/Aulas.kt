@@ -56,3 +56,17 @@ nome3 = "Michel"*/
  * var (de variável) representa uma referência mutável, ou seja, o valor da variável pode ser alterado após ser criada (variável regular em Java)
  * O tipo da variável pode ser especificado ou não depois do nome
  *  */
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=kCH3wJnq8ig&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=8
+//Curso de Kotlin | Básico #06 - String Templates
+
+/*Formatação de strings mais fácil
+*
+* É possível referenciar variáveis locais em strings literais por colocar o caractere $ antes do nome da variável
+* Isso equivale à concatenção de strins no Java ("hello " + nome + "!")
+* É possível fazer o escape da variável para o compilador não interpretá-la como template ("\$x)"
+* Pode ser utilizada também com expressões
+* */
+
+

@@ -1,4 +1,4 @@
-fun main() {
+fun main() { //psvm
     val nome:String = "Doug"
     var idade:Int = 18
     idade++
