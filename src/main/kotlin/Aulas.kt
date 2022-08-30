@@ -109,13 +109,35 @@ public class classes.Pessoa{
 }
 */
 
-/*Classe Kotlin
-class Pessoa (
+//Classe Kotlin
+class PessoaAula07 (
     val nome: String,
     val idade: Int
     )
-
+/*
 * objetos valor (value objects) - contém apenas dados (sem códigos)
 * Public é a visibilidade default em Kotlin
 */
 
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=zbkMTSxmL9c&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=10
+//Curso de Kotlin | Básico #08 - Propriedades
+
+/* Propriedades em Java
+*
+* A ideia de uma classe é encapsular dados e códigos que trabalham sobre esses dados dentro de uma única entidade
+* Em Java, o dado é armazenado em campos, que são usualmente privados
+* Se você necessita deixar o cliente da classe acessar esse dado, você fornece métodos assossores: um getter e possivelmente um setter
+* Em Java, a combinação de campo e seu assessor é frequentemente referenciado como uma propriedade
+* */
+
+/* Propriedades em Kotlin
+*
+* Funcionalidade de linguagem de primeira-classe
+* Inteiramente substitui campos e métodos assessores*/
+
+class PessoaAula08 (
+    val nome: String, //<- Criando uma propriedade em Kotlin
+    val idade: Int,
+    var isCasado: Boolean
+)
