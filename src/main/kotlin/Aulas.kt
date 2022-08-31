@@ -141,3 +141,19 @@ class PessoaAula08 (
     val idade: Int,
     var isCasado: Boolean
 )
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=bLuSVu7sV44&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=10
+//Curso de Kotlin | Básico #09 - Assessores Customizados
+
+/*Assessores Customizados
+*
+* Em Kotlin podemos escrever assessores de propriedades customizados*/
+
+class RetanguloAula09(val altura: Int, val largura: Int){
+    val isQuadrado:Boolean               //isQuadrado não necessita de um campo para guardar seu valor
+        get() {                          //Somente tem um getter customizado com a implementação fornecida
+            return altura == largura     //O valor é computado toda vez que a propriedade é acessada
+        }
+}
+
