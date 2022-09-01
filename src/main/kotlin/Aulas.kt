@@ -157,3 +157,21 @@ class RetanguloAula09(val altura: Int, val largura: Int){
         }
 }
 
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=NUVypzlZWks&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=12
+//Curso de Kotlin | Básico #10 - Estrutura de Diretórios e Pacotes
+
+/*Layout do Código Fonte: Diretórios e Pacotes
+*
+* Organização: Pacotes e Diretórios
+*
+* Kotlin também tem o conceito de pacotes, similar ao Java
+* Todo arquivo Kotlin pode ter uma declaração de pacote no início
+* Todas as declarações (classes, funções e propriedades) definidas no arquivo vão ser colocadas nesse pacote
+* Declarações definidas em outros arquivos podem ser usados diretamente se eles estão no mesmo pacote; eles necessitam ser importados se eles estão em um pacote diferente
+* Kotlin não faz distinção entre importação de classes e funções (top level)
+* Em Java as classes devem seguir uma hierarquia de diretórios que casam com a estrutura de pacotes
+* Em Kotlin, você pode colocar várias classes no mesmo arquivo e escolher qualquer nome para esse arquivo
+* Kotlin também não impõe qualquer restrição sobre o layout de arquivos fonte no disco
+* Na maioria dos casos, contudo, ainda é uma boa prática seguir o layout de diretórios dos Java para organizar arquivos fontes dentro de diretórios de acordo com a estrutura de pacotes.
+* */
