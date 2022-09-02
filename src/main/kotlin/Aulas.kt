@@ -175,3 +175,21 @@ class RetanguloAula09(val altura: Int, val largura: Int){
 * Kotlin também não impõe qualquer restrição sobre o layout de arquivos fonte no disco
 * Na maioria dos casos, contudo, ainda é uma boa prática seguir o layout de diretórios dos Java para organizar arquivos fontes dentro de diretórios de acordo com a estrutura de pacotes.
 * */
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=RdViuF1z2J4&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=11
+//Curso de Kotlin | Básico #11 - Enums
+
+/*Um enum é uma "classe" especial que representa um grupo de constantes (variáveis imutáveis, como variaveis 'final' no Java*/
+
+//Declarando classes enum no Kotlin
+
+enum class CorExemplo{
+    VERMELHO, LARANHA, AMARELO, VERDE, AZUL
+}
+
+/*
+* Esse é um caso raro onde uma declaração em Kotlin usa mais palavras chave do que o correspondente em Java: enum class vs somente enum
+* Em Kotlin, enum é chamado de soft-keyword
+* Significado especial quando ela vem antes de class, mas podemos usá-la como um nome regular em outros lugares (val enum = "abc")
+* Assim como em Java, enums não são lista de valores: podemos declarar propriedades e métodos em classes Enum*/
