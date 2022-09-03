@@ -236,6 +236,9 @@ enum class CorExemplo{
 //https://www.youtube.com/watch?v=kDKjzHRIQ-M&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=16
 //Curso de Kotlin | Básico #15 - Laço de Repetição While (Primeiro Programa Interativo)
 
+//https://www.youtube.com/watch?v=xs1iTB_Bj14&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=17
+//Curso de Kotlin | Básico #16 - Laço de repetição do-while
+
 /*Laços de repetição "while"
 *
 * De todas as funcionalidades vistas até agora, iteração em Kotlin é provavelmente a mais similar ao Java
@@ -243,3 +246,6 @@ enum class CorExemplo{
 * O laço "for" existe em uma única forma, que é equivalente ao laço "for-each" no Java
 * No Kotlin existe os laços "while" e "do-while", que não diferem deos seus correspondentes laços em Java.
 * */
+
+/* ************************************************************************************************************* */
+
