@@ -248,4 +248,17 @@ enum class CorExemplo{
 * */
 
 /* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=zp8gAqduubA&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=17
+//Curso de Kotlin | Básico #17 - Laço de repetição for
 
+/*Iterando sobre números: intervalos e progressões
+*
+* Laço de repetição "for"
+*
+* Em Kotlin não existe o laço "for" padrão do Java: for (i=0;i<10;i++){}
+* Kotlin usa o conceito de "ranges"
+* Um "range" é essencialmente um intervalo entre dois valores, usualmente números: um início e um fim
+* Nós representamos isso com o uso do operador .. (1..10)
+* "Ranges" em Kotlin são fechados ou inclusivos, significando que o segundo valor é sempre parte do invervalo
+* Em muitos casos, é mais conveniente iterar sobre intervalos semi-fechados, que não inclui o valor final especificado (
+* */
