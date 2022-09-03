@@ -193,3 +193,15 @@ enum class CorExemplo{
 * Em Kotlin, enum é chamado de soft-keyword
 * Significado especial quando ela vem antes de class, mas podemos usá-la como um nome regular em outros lugares (val enum = "abc")
 * Assim como em Java, enums não são lista de valores: podemos declarar propriedades e métodos em classes Enum*/
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=rrH5sHGmp9A&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=15
+//Curso Kotlin | Básico #12 - Expressão When
+
+/*Construção "when" e enum em Kotlin
+*
+* "when" é um substituto do "switch" do Java
+* Porém mais poderoso e é usado mais frequentemente
+* "when" é uma expressão que retorna um valor (corpo de expressão), assim como o "if".
+* Não precisamos escrever afirmações "break" em cada branch, como em Java
+* Podemos também combinar múltiplos valores no mesmo branch separando por vírgulas*/
