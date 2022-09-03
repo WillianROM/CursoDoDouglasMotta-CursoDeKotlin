@@ -205,3 +205,15 @@ enum class CorExemplo{
 * "when" é uma expressão que retorna um valor (corpo de expressão), assim como o "if".
 * Não precisamos escrever afirmações "break" em cada branch, como em Java
 * Podemos também combinar múltiplos valores no mesmo branch separando por vírgulas*/
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=wIMteSQBDIw&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=14
+//Curso de Kotlin | Básico #13 - Smart Casts
+
+/*Entendendo Smart Cast
+*
+* A palavra chave "is" é equivalente ao "instanceof" no Java (Verificação de tipo de uma variável)
+* Em Java, é sempre preciso fazer um cast explícito após a verificação de um tipo com "instanceof"
+* No Kotlin, o compilador faz esse trabalho para nós
+* Se uma verificação foi feita para um certo tipo, não é preciso fazer um cast explícito depois da verificação
+* O cast feito automaticamente pelo compilador é chamado de "Smart Cast"*/
