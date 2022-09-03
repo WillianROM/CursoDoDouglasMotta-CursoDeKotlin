@@ -217,3 +217,17 @@ enum class CorExemplo{
 * No Kotlin, o compilador faz esse trabalho para nós
 * Se uma verificação foi feita para um certo tipo, não é preciso fazer um cast explícito depois da verificação
 * O cast feito automaticamente pelo compilador é chamado de "Smart Cast"*/
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=ERirCUX0jNs&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=15
+//Curso de Kotlin | Básico #14 - Blocos como Ramificações
+
+/*Blocos como ramificações de "if" e "when"
+*
+* Blocos como ramificações
+*
+* Ambos, "if" e "when" podem ter blocos como ramificações
+* A última expressão do bloco é o resultado
+* A afirmação anterior é verdadeira em todos os casos onde um bloco pode ser usado e um resultado é esperado
+* Essa regra só não é verdadeira para funções regulares, que possuem ou um corpo de expressão que não pode ser um bloco, ou um corpo de bloco com um retorno explícito dentro (return)
+* */
