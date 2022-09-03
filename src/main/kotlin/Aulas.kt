@@ -231,3 +231,15 @@ enum class CorExemplo{
 * A afirmação anterior é verdadeira em todos os casos onde um bloco pode ser usado e um resultado é esperado
 * Essa regra só não é verdadeira para funções regulares, que possuem ou um corpo de expressão que não pode ser um bloco, ou um corpo de bloco com um retorno explícito dentro (return)
 * */
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=kDKjzHRIQ-M&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=16
+//Curso de Kotlin | Básico #15 - Laço de Repetição While (Primeiro Programa Interativo)
+
+/*Laços de repetição "while"
+*
+* De todas as funcionalidades vistas até agora, iteração em Kotlin é provavelmente a mais similar ao Java
+* O laço "while" é idêntico ao Java
+* O laço "for" existe em uma única forma, que é equivalente ao laço "for-each" no Java
+* No Kotlin existe os laços "while" e "do-while", que não diferem deos seus correspondentes laços em Java.
+* */
