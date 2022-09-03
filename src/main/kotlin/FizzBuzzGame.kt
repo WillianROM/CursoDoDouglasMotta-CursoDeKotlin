@@ -15,4 +15,9 @@ fun main() {
     for(numero in 1..100) {
         println(fizzBuzz(numero))
     }
+
+    println("====================REGRESSIVO=============================")
+    for(numero in 100 downTo 1) {
+        println(fizzBuzz(numero))
+    }
 }
