@@ -268,3 +268,10 @@ enum class CorExemplo{
 //Curso de Kotlin | Básico #18 - Iteração sobre Maps (com FOR)
 
 /* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=HU_MiEoPl4w&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=20
+//Curso de Kotlin | Básico #19 - Operador In
+
+/*Operador "in"
+*
+* Como já vimos, utilizamos o operador "in" para iterar sobre invervalos
+* Mas também podemos utilizar o operador "in" para verificar se um valor está presente em um intervalo de valores utilizando o operador com a negação (!in)*/
