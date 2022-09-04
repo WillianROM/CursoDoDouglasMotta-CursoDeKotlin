@@ -262,3 +262,9 @@ enum class CorExemplo{
 * "Ranges" em Kotlin são fechados ou inclusivos, significando que o segundo valor é sempre parte do invervalo
 * Em muitos casos, é mais conveniente iterar sobre intervalos semi-fechados, que não inclui o valor final especificado (
 * */
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=TkoZFydJEuQ&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=19
+//Curso de Kotlin | Básico #18 - Iteração sobre Maps (com FOR)
+
+/* ************************************************************************************************************* */
