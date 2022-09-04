@@ -285,3 +285,6 @@ enum class CorExemplo{
 * O chamador da função pode pegar e tratar a exceção ou deixar que alguém mais adiante na pilha pegue e trate da exceção
 * Para lançar uma exceção no Kotlin utilizamos a palavra reservada "throw"
 * Em Kotlin, diferente do Java, a construção "throw" é uma expressão e pode ser usada como parte de outra expressão*/
+
+//https://www.youtube.com/watch?v=75LBqgrVoug&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=21
+//Curso de Kotlin | Básico #21 - Como Tratar Exceções
