@@ -288,3 +288,16 @@ enum class CorExemplo{
 
 //https://www.youtube.com/watch?v=75LBqgrVoug&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=21
 //Curso de Kotlin | Básico #21 - Como Tratar Exceções
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=IVFZhFdC0KI&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=23
+//Curso de Kotlin | Intermediário #22 - Entendendo e Criando Coleções
+
+/*Entendendo e criando coleções no Kotlin
+*
+* Kotlin não possui seu próprio conjunto de Coleções (List, Map, Set, etc)
+* Kotlin usa as classes de coleção Java padrão (bom para devs Java!)
+* É muito simples criar uma coleção com Kotlin
+* Ex: ArrayList*/
+val frutas = arrayListOf("Maça","Banana","Morango")
+/* Apesar do Kotlin não ter seu próprio conjunto de coleções, é possível fazer muito mais com coleções em Kotlin*/
