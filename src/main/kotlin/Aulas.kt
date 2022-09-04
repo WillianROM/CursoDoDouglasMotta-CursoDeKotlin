@@ -275,3 +275,13 @@ enum class CorExemplo{
 *
 * Como já vimos, utilizamos o operador "in" para iterar sobre invervalos
 * Mas também podemos utilizar o operador "in" para verificar se um valor está presente em um intervalo de valores utilizando o operador com a negação (!in)*/
+
+/* ************************************************************************************************************* */
+//https://www.youtube.com/watch?v=vOQwUA84GUE&list=PLPs3nlHFeKTr-aDDvUxU971rPSVTyQ6Bn&index=20
+//Curso de Kotlin | Básico #20 - Como Lançar Exceções
+
+/* Exceções em Kotlin é similar Java ou qualquer outra linguagem
+* Um função pode completar de forma correta ou lançar uma exceção se um erro ocorrer
+* O chamador da função pode pegar e tratar a exceção ou deixar que alguém mais adiante na pilha pegue e trate da exceção
+* Para lançar uma exceção no Kotlin utilizamos a palavra reservada "throw"
+* Em Kotlin, diferente do Java, a construção "throw" é uma expressão e pode ser usada como parte de outra expressão*/
